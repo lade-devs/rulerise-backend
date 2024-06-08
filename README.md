@@ -18,3 +18,5 @@ php artisan db:seed --class=UserSeeder
 ## User Authorization Test
 To test between admin and user authorization visit the routes: /user/asAdmin or /user/asUser once you are logged in.
 
+## Testing
+You can import the postman collection.
