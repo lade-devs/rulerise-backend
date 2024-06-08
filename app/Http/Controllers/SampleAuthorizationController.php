@@ -12,11 +12,11 @@ class SampleAuthorizationController
 {
     public function asAdmin() : JsonResponse
     {
-        return ApiReturnResponse::success([], 'Yay Admin Access');
+        return ApiReturnResponse::success(message: 'Yay Admin Access');
     }
 
     public function asUser() : JsonResponse
     {
-        return ApiReturnResponse::success([], 'Yay User Access');
+        return ApiReturnResponse::success(message:'Yay User Access');
     }
 }
